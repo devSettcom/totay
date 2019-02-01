@@ -5,18 +5,19 @@ body {
     margin: 0;
     background: #5B5F63;
     height: auto;
+    word-wrap: break-word;
 }
 
 h1{
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
     margin:0;
 }
 
 h2{
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 0.6rem;
     text-transform: capitalize;
     margin:0;
 }
@@ -56,7 +57,7 @@ main{
 }
 
 #landing-text ul{
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: left;
 }
 #landing-text ul li{
@@ -68,6 +69,7 @@ main{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height:50vh;
     flex: 0 1 60vw;
     margin:0;
@@ -77,6 +79,7 @@ main{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height:50vh;
     flex: 0 1 60vw;
     margin:0;
@@ -148,6 +151,23 @@ footer h3{
     }
     #me-image{
         height:100vh;
+    }
+    h1{
+        font-weight: 400;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin:0;
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        margin:0;
+    }
+    #landing-text ul{
+        font-size: 2rem;
+        text-align: left;
     }
 }
 
