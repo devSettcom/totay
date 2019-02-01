@@ -1,0 +1,18 @@
+:root{
+  --backColor:#F7F7F7;
+  --whiteColor:#FFFFFF;
+  --mainColor:#4999F5;
+  --rgbMainColor:rgba(73,153,245, 0.8);
+  --darkMainColor:#2F69BA;
+  --compColor:#F76574;
+  --rgbCompColor:rgba(247,101,116, 0.9) ;
+}
+
+:root{
+  --mainColor: #5B5F63;
+  --landingColor: #fffd;
+  --secondColor: ##00ccff;
+  --white: #FFFFFF;
+  --black: #F7F7F7;
+}
+  https://source.unsplash.com/OVbeSXRk_9E
