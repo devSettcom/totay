@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Totee Setthachuea | Developer</title>
+</head>
+<body>
+    <header>
+        <div class="container" >
+            <nav>
+                <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+                <span class="open-slide">
+                    <div onclick="openSlideMenu()">
+                        <svg width="30" height="30" id="menuIcon" onmouseover="changeColor()" onmouseout="revertColor()">
+                            <path id="one" d="M0,5 30,5" stroke="black" stroke-width="5"/>
+                            <path id="two" d="M0,14 30,14" stroke="black" stroke-width="5"/>
+                            <path id="three" d="M0,23 30,23" stroke="black" stroke-width="5"/>
+                        </svg>
+                    </div>
+                </span>
+            </nav>
+        </div>
+      </header>
+      <div id="side-menu" class="side-nav">
+            <p class="btn-close" onclick="closeSlideMenu()">&times;</p>
+            <a href="index.html">Home</a>
+            <a href="about.html">Abouts</a>
+            <a href="blog.html">Blog</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+
+    <main>
+        <h1>projects</h1>
+    </main>
+    <footer>
+        <h3>Get In Touch</h3>
+        <p>Email or call us to set up a consult</p>
+        <p>Email: <strong>toteesett@gmail.com</strong></p>
+        <p>Phone: <strong>(619) 806-6677</strong></p>
+    </footer>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
