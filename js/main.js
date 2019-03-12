@@ -1,13 +1,4 @@
-// Animate smooth scroll
-/*
-$('#view-work').on('click', function(){
-    const me = $('#me').position().top;
 
-    $('html, body').animate({
-        scrollTop: me
-    }, 900);
-});
-*/
 function openSlideMenu(){
     document.getElementById('side-menu').style.width = '250px';
 }
