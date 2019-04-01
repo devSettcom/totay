@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Totee Setthachuea | Developer</title>
+</head>
+<body>
+    <header class="blogNav">
+        <div class="container" >
+            <nav>
+                <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <!--<li><a href="project.html">Projects</a></li>-->
+                    <li><a href="../contact.html">Contacts</a></li>
+                </ul>
+                <span class="open-slide">
+                    <div onclick="openSlideMenu()">
+                        <svg width="30" height="30" id="menuIcon" onmouseover="changeColor()" onmouseout="revertColor()">
+                            <path id="one" d="M0,5 30,5" stroke="black" stroke-width="5"/>
+                            <path id="two" d="M0,14 30,14" stroke="black" stroke-width="5"/>
+                            <path id="three" d="M0,23 30,23" stroke="black" stroke-width="5"/>
+                        </svg>
+                    </div>
+                </span>
+            </nav>
+        </div>
+      </header>
+      <div id="side-menu" class="side-nav">
+            <p class="btn-close" onclick="closeSlideMenu()">&times;</p>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">Abouts</a>
+            <a href="../blog.html">Blog</a>
+            <!--<li><a href="project.html">Projects</a></li>-->
+            <a href="../contact.html">Contacts</a>
+        </div>
+
+    <main>
+        <div class="blogArea">
+            <div class="blogTitle">
+                 <h1>Spring Break RPG Prototype</h1>
+                 
+            </div>
+            <p>Given one week of freedom from the grueling hell of being a computer engineering student, 
+                I began working on a prototype for an rpg game that I wanted to create.    
+            </p>
+            <img src="/image/Blog/Blog 1/title.PNG" alt="">
+            <p>
+                I first implemented the player's movement ability. I decided to go for a grid based movement system to create a JRPG feel
+                to my game.  
+            </p>
+            <img src="/image/Blog/Blog 1/world1.PNG" alt="">
+            <p>Once that was done, I gave the player NPCs to interact with and created a dialogue system </p>
+            <img src="/image/Blog/Blog 1/shop.PNG" alt="">
+            <p>Now that the dialogue system has been established, I began working on the game menu. The menu contains four options: Character,Items,Exit, and Save</p>
+            <img src="/image/Blog/Blog 1/menu.PNG" alt="">
+            <p>A JRPG would not be a JRPG without its turned based combat to which I modeled the characters after Final Fantasy 7 characters</p>
+            <img src="/image/Blog/Blog 1/battle.PNG" alt="">
+            <p>And finally, I created a save and load system for the game to save the player's progress.</p>
+            <p>The sprites I used to prototype this RPG is from an opengameart.org user named <a href="https://opengameart.org/content/tiny-16-basic">Sharm</a></p>
+            <p>This prototype is still no where close to being finished. I still need to implement a questing system and ways to create a story within the game. However, I made substaintial progress during spring break and hopefully, I can finish this prototype before the start of summer break</p>
+        </div>
+       
+          
+    </main>
+    <footer>
+        <h3>Get In Touch</h3>
+        <p>Email or call us to set up a consult</p>
+        <p>Email: <strong>toteesett@gmail.com</strong></p>
+        <p>Phone: <strong>(619) 806-6677</strong></p>
+    </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
